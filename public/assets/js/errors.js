@@ -11,7 +11,7 @@ const errors = {
 // Récupération du code d'erreur dans l'URL
 let params = new URLSearchParams(window.location.search);
 // Debug ⚙️:
-// //console.log(params.get('error'));
+// console.log(params.get('error'));
 
 // Conversion du code d'erreur en type nombre
 let codeError = parseInt(params.get("error"));
