@@ -10,7 +10,7 @@ function getTeam(team) {
     // Debug
     //console.log(team[i].name);
     //console.log(team[i].job);
-    //console.log(team[i].img);
+    // console.log(team[i].img);
 
     // Création d'un élément HTML pour chaque membre de l'équipe
     let teamContainer = document.createElement("div");
@@ -19,7 +19,9 @@ function getTeam(team) {
     // Ajout du contenu HTML dans chaque élément HTML créé avec le contenu du tableau team
     teamContainer.innerHTML = `
             <div class="card-team">
-                <div class="card-team-avatar"></div>
+                <div class="card-team-avatar">
+                <img src="${team[i].img}"></img>
+                </div>
                 <div class="card-team-content">
                     <h3>${team[i].name}</h3>
                     <p>${team[i].job}</p>
