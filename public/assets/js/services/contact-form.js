@@ -7,7 +7,7 @@ document
     event.preventDefault();
     // Important : Empêcher le comportement par défaut du navigateur
     // Debug
-    // console.log("submit");
+    console.log("submit");
     //console.log('Formulaire soumis');
     // Récupération des valeurs des champs du formulaire dans des variables
     let name = document.getElementById("name").value;
