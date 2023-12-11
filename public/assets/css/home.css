@@ -103,16 +103,23 @@
   margin: 20px;
   padding: 20px;
   border: none;
-  border-radius: 5px;
 }
 
 .card-team-avatar {
   /* code provisoire 
      intégrer les images de profil des membres de l'équipe */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 150px;
   height: 150px;
-  background-color: grey;
   border-radius: 50%;
+}
+
+.card-team-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
 }
 
 /* Destinations Section */
