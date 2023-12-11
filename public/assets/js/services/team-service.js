@@ -28,7 +28,7 @@ function getTeam(team) {
                 </div>
             </div>
         `;
-    // Ajout de chaque élément HTML créé dans la section #about de la page d'accueil
+    // Ajout de chaque élément HTML créé dans la section #about de la page d'accueil,
     document.getElementById("about-team").appendChild(teamContainer);
   }
 }
